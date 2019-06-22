@@ -21,5 +21,4 @@ gradle
 out
 target
 
-# Drivers
-chromedriver.exe
+cm_windows_amd64.exe

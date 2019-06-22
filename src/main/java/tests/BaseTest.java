@@ -10,10 +10,10 @@ public class BaseTest {
 
     @BeforeClass
     public void setup () {
-        //Create a Chrome driver. All test classes use this.
+        /**
+         * Create a Chrome driver and maximize window
+         */
         driver = new ChromeDriver();
-
-        //Maximize Window
         driver.manage().window().maximize();
     }
 
