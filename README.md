@@ -8,8 +8,16 @@
 
 Use page object pattern (Home and Search Result Pages).
 
+
+This test for Google Chrome 75.0
+
 ## Run tests
 
+Clone repository
+`git clone git@github.com:x1ff/rbc.git`
+
+Compile the tests
 `mvn compile`
 
+Run tests
 `mvn test`
