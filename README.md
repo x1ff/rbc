@@ -8,8 +8,6 @@
 
 Use page object pattern (Home and Search Result Pages).
 
-This test for Google Chrome 75.0
-
 ## Run tests
 
 Clone repository
