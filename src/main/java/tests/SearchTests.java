@@ -12,7 +12,7 @@ public class SearchTests extends BaseTest {
     }
 
     @Test (priority = 1)
-    public void noresultTest () {
+    public void noResultTest () {
         HomePage homePage = new HomePage(driver);
         homePage.goToRbs()
                 .Search("йййй").verifyNoResult();

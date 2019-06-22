@@ -4,27 +4,40 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class HomePage extends BasePage {
-    //*********Page Variables*********
+
+    /**
+     * Page Variables
+     */
     private String baseURL = "https://www.rbc.ru/";
 
-    //*********Web Elements*********
+    /**
+     * Web Elements
+     */
     private By loupeButtonBy = By.cssSelector("span.topline__search__menu__link");
     private By searchPopupInputBy = By.cssSelector("input.topline__search__input");
     private By searchPopupButtonBy = By.cssSelector(("input.topline__search__button"));
 
-    //*********Constructor*********
+    /**
+     * Constructor
+     * @param driver
+     */
     public HomePage (WebDriver driver) {
         super(driver);
     }
 
-    //*********Page Methods*********
-    //Go to Homepage
+    /**
+     * Go to Homepage
+     */
     public HomePage goToRbs (){
         driver.get(baseURL);
         return this;
     }
 
-    //Search
+    /**
+     * Search
+     * @param request
+     * @return
+     */
     public SearchResultPage Search (String request){
         click(loupeButtonBy);
         waitVisibility(searchPopupInputBy);
