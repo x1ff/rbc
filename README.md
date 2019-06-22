@@ -15,7 +15,7 @@ This test for Google Chrome 75.0
 Clone repository
 `git clone git@github.com:x1ff/rbc.git`
 
-Download [chromedriver](https://chromedriver.storage.googleapis.com/index.html) for your Google Chrome to root dirextory of repository
+Download [chromedriver](https://chromedriver.storage.googleapis.com/index.html) for your Google Chrome to root directory of repository
 
 Compile the tests
 `mvn compile`
